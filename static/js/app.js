@@ -109,7 +109,7 @@ function updateDemo(name) {
 
 d3.selectAll("#selDataset").on("change", updatePage);
 
-function updatePage() {
+function updatePage(name) {
     // var dropdown = d3.select("#selDataset");
 
     // //Clear existing data
